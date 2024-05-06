@@ -1,3 +1,4 @@
 *.ipynb_checkpoints/
 categories/
 start_lab.sh
+cufile.log
