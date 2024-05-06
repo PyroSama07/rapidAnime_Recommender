@@ -15,7 +15,7 @@ docker pull nvcr.io/nvidia/merlin/merlin-tensorflow:nightly
 After pulling the image run the following commands to run the repo
 
 ```bash
-git clone https://github.com/PyroSama07/rapidAnime_Recommender
+git clone https://github.com/PyroSama07/rapidAnime_Recommender.git
 docker run --rm -it --runtime=nvidia -p "8888:8888" -v rapidAnime_Recommender/:/workspace/rapidAnime nvcr.io/nvidia/merlin/merlin-tensorflow:nightly
 cd /workspace/rapidAnime
 jupyter lab --ip 0.0.0.0 --allow-root --no-browser
