@@ -1,6 +1,11 @@
 # rapidAnime Recommender
 Our project develops an Anime Recommendation System using NVIDIA Merlin framework which is built on ,Rapids, cuDf and NVIDIA Triton Inference Server. We curated our own dataset from MyAnimeList.net via web scraping.The dataset includes comprehensive anime metadata and user-specific information like ratings and reviews. Our goal is to build a robust recommendation engine by using various methods provided by NVIDIA Merlin to provide personalized anime suggestions based on user preferences. Key steps include data preprocessing, feature engineering, and model training utilizing various A.I techniques, evaluation,leveraging NVIDIA GPUs for scalable and efficient computations.This project advances anime recommendation systems, enhancing user discovery experiences and aiding content providers in delivering tailored recommendations. 
 
+## Data
+The data consists of reviews scrapped form [MAL](https://myanimelist.net/) from 2021 to may, 2024.  
+Total number of reviews: 60400  
+Totlal number of animes: 6400  
+
 ## Run it yourself
 To run on gpu make sure to have cuda supported gpu and nvidia container toolkit and docker installed.
 
